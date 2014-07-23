@@ -1,0 +1,22 @@
+<?php 
+$page_title='Fertility Handbook | The Menstrual Cycle';
+$page_keywords='Fertility Handbook, Guide to IVF, In vitro fertilization, IVF, menstrual cycle, female body, preparing for pregnancy, average menstrual cycle, endometrium, hypothalamus, pituitary, ovary, uterus, hormonal system, phases of menstrual cycle, phases of the menstrual cycle, follicular phase, follicle stimulating hormone, FSH, luteinizing hormone, LH, luteal phase, corpus luteum, luteum, human chorionic gonadotropin, hcg';
+$page_description='Here is where you can learn about the different phases of the female menstrual cycle from the Fertility Handbook.';
+
+if ($current_page != 'home') {include('../../functions/single-header.php');} ?>
+
+<h1 class="section">1.2 The Menstrual Cycle</h1>
+<p>The menstrual cycle is a female body's monthly pattern of preparing for a possible pregnancy. The average menstrual cycle is 28 days, though some women may experience shorter or longer cycles. During one menstrual cycle one of the ovaries releases an egg and the uterus grows new <a title="Endometrium is a layer of fine tissue completely covering the inside of the uterus. It is very sensitive to hormones and there is a window of time when the embryo can attach and start growing into it.">endometrium</a>. If the egg is not fertilized by sperm, the endometrium sheds from the uterus in form of a menstrual period through the cervix and vagina.</p>
+<p>The menstrual cycle is controlled by an integrated system which involves the <a title="The hypothalamus is a specific area of the brain that regulates many basic functions in the body including temperature, blood pressure, satiety, etc.">hypothalamus</a>, the <a title="The pituitary is a small gland attached to the lower portion of the brain that is under the influence of the hypothalamus. It secretes a variety of hormones including FSH and LH (both important for reproductive function).">pituitary</a>, the ovary and the uterus.</p>
+<p>The different systems communicate by hormones – a group of different substances that carry the information from one cell to another. The hormonal system involves: release of hormones by the pituitary gland, the brain and the ovaries.</p>
+<p>Use Figure 1.3 to guide you through the phases of the menstrual cycle discussed below.</p>
+<p class="figure"><strong>Figure 1.3</strong> The Menstrual Cycle</p>
+
+<h3 class="no-lines">Follicular Phase</h3>
+<p>During this phase, the pituitary gland releases follicle stimulating hormone (FSH) which stimulates the growth and development of follicles in the ovaries.  As the follicles mature estrogen  levels will start to rise and this will have various effects.  Ultimately, estrogen will limit itself by signaling the pituitary gland to inhibit FSH production and begin production of luteinizing hormone (LH). In addition to reducing FSH production, estrogen also causes the endometrium to thicken and later be ready of embryo implantation. The spike of LH will trigger the ovulation, which occurs mid-cycle.</p>
+
+<h3 class="no-lines">Luteal Phase</h3>
+<p>As LH and FSH spike, the "dominant follicle" ruptures and releases a single egg known as an oocyte.  The egg leaves behind the ruptured follicle that shortly thereafter gets filled with blood and forms another functional structure called corpus luteum.  The corpus luteum secretes progesterone, which encourages the transformation of the endometrium in preparation for implantation.  Meanwhile, the egg travels in one of the fallopian tubes toward the uterus.  While in the fallopian tube, the egg may be fertilized by sperm, if sexual intercourse occurred and an adequate amount of sperm is available in the vagina. Once the egg is fertilized, it will continue moving toward the uterus in the form of an embryo and eventually attach to the endometrium.</p>
+<p>The corpus luteum lasts only 12-14 days, unless it begins to receive <a title ="hCG is a hormone produced by the embryo after conception and later on during pregnancy by a section of the placenta.">human chorionic gonadotropin (hCG)</a>  from the implanted embryo, in which case it remains active for 10 weeks.  If pregnancy does not occur, the corpus luteum breaks down, progesterone levels decrease, and the endometrium, which is no longer needed, is expelled through the cervix and vagina.  The corpus luteum is replaced by a scar called the corpus albicans.</p>
+
+<?php if ($current_page != 'home') {include('../../functions/single-footer.php');} ?>

@@ -1,0 +1,186 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	/*background:#ccc url(../images/wood.jpg) repeat top left;*/
+	background-color:#fefefe;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color: #222;
+	width:100%;
+}
+
+h1 {color:#555;	font-size:24px; font-weight:normal; margin:0px 0px 15px 20px; font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;}
+h1.title {color:#fff; font-size:16px; margin:0px 0px 0px 20px;}
+h1.section {margin:0 0 20px 0; color:#f49ec4; font-size:18px; width:386px; padding:10px 0 10px 30px; position:relative; background-image:url(../images/h1.section.right.png); background-repeat:repeat-y;}
+h1 span.switch {font-size:12px; margin-left:25px;}
+h1 span.switch a {color:#eee;}
+h1 span.switch a:hover {color:#fff;}
+
+h2 {color:#f49ec4; font-size:16px; font-weight:normal; font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;}
+h3 {color:#f49ec4;}
+.pink-lines {padding:2px 0; margin:5px 5px 15px 35px; border-top:1px solid #f49ec4; border-bottom:1px solid #f49ec4;}
+h3.no-lines {padding:2px 0; margin:20px 35px 0 35px; border:none;}
+
+#navigation {height:30px; background:#666; opacity:.5; position:relative; width:100%; margin:auto;}
+#page_title {height:0px; width:1000px; margin:auto; position:relative; bottom:30px; position:relative; z-index:200;}
+
+.page {width:371px; margin-top:24px; overflow-x: hidden; overflow-y: auto; height:580px;}
+.single-text a, .page a {font-weight:bold;}
+
+.b-wrap-right .page {padding:20px 40px 0 0;}
+.b-wrap-left .page {padding:20px 0 0 0; margin-left:39px; width:415px; direction:rtl;}
+.b-wrap-left .page h1, .b-wrap-left .page h2, .b-wrap-left .page h3, .b-wrap-left .page p {direction:ltr;}
+.b-wrap-left .page h1.section { background-image:url(../images/h1.section.left.png); position:relative; left:2px;}
+
+.left-image {position:relative; right:300px; border:none; margin-bottom:15px;}
+
+ul.book li, ol.book li, p {padding:10px 35px 0 35px; text-align:justify; width:310px; margin:5px 20px 5px 15px;}
+
+ol.book li, ul.book li {list-style-position:inside; direction:ltr;}
+
+.figure {text-align:center; font-size:10px;}
+
+table {margin:10px 55px 0 50px; width:310px; direction:ltr; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;}
+table td {color:#fefefe; padding:5px; text-align:justify;}
+.tablelabel {color:#000; font-weight:bold; vertical-align:top;  width:110px;}
+.tablelabel span {margin-left: 10px; padding: 5px 10px; position:relative; top:7px; background-color:#fcedf2; border:solid 1px #f6a3c5; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;}
+.headerrow {color:#fff; font-size:16px; text-align:center;}
+.headerrow span {font-size:9px;}
+.info {padding-right:15px;}
+table.colora {background-color:#b786b7;}
+table.colorb {background-color:#802a81;}
+
+#copyright-info {margin:490px auto 0; width:100%; position:relative; left:30px;}
+#copyright-info p {text-align:center; line-height:18px;}
+
+
+/* Booklet jQuery Plugin Style*/
+.booklet{
+	-moz-box-shadow:0px 0px 1px #fff;
+	-webkit-box-shadow:0px 0px 1px #fff;
+	box-shadow:0px 0px 1px #fff;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+.booklet .b-wrap-left  {
+	background:#fff url(../images/left_bg.jpg) no-repeat top left;
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-radius-topleft:15px;
+	-moz-border-radius-bottomleft: 15px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+.booklet .b-wrap-right {
+	background:#efefef url(../images/right_bg.jpg) no-repeat top left;
+	-webkit-border-top-right-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-radius-topright: 15px;
+	-moz-border-radius-bottomright: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+.booklet .b-counter {
+	bottom:20px;
+	position:absolute;
+	display:block;
+	width:50%;
+	height:20px;
+	color:#222;
+	font-size:12px;
+	padding:0px 100px;
+	background:transparent;
+	opacity:0.8;
+}
+
+.b-wrap-right .b-counter {text-align:right;}
+.b-wrap-left .b-counter {text-align:left;}
+
+.book_wrapper{
+	margin:0 auto;
+	padding-top:32px;
+	width:1057px;
+	height:700px;
+	position:relative;
+	background:transparent url(../images/bg.png) no-repeat 9px 27px;
+}
+
+
+.book_wrapper a.article,
+.book_wrapper a.demo{
+	background:transparent url(../images/circle.png) no-repeat 50% 0px;
+	display:block;
+	width:95px;
+	height:41px;
+	text-decoration:none;
+	outline:none;
+	font-size:16px;
+	color:#555;
+	float:left;
+	line-height:41px;
+	padding-left:47px;
+}
+.book_wrapper a.demo{
+	margin-left:50px;
+}
+.book_wrapper a.article:hover,
+.book_wrapper a.demo:hover{
+	background-position:50% -41px;
+	color:#13386a;
+}
+
+a#next_page_button,
+a#prev_page_button{
+	display:none;
+	position:absolute;
+	width:41px;
+	height:40px;
+	cursor:pointer;
+	margin-top:-20px;
+	top:50%;
+	background:transparent url(../images/buttons.png) no-repeat 0px -40px;
+	z-index:1000;
+}
+a#prev_page_button{
+	left:63px;
+}
+a#next_page_button{
+	right:61px;
+	background-position:-41px -40px;
+}
+a#next_page_button:hover{
+	background-position:-41px 0px;
+}
+a#prev_page_button:hover{
+	background-position:0px 0px;
+}
+.loading{
+	width:160px;
+	height:56px;
+	position: absolute;
+	top:50%;
+	margin-top:-28px;
+	right:135px;
+	line-height:56px;
+	color:#fff;
+	padding-left:60px;
+	font-size:15px;
+	background: #000 url(../images/ajax-loader.gif) no-repeat 10px 50%;
+	opacity: 0.7;
+	z-index:9999;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+}
+
+#single-wrap {width:1260px; margin:auto; margin-top:30px;}
+#single-page { height:700px; width:1050px; background-image:url(../images/bg-single.png); background-repeat:no-repeat; float:left;}
+#sidebar {width:210px; float:right;}
+#sidebar ul li {list-style-position:inside; margin:0 0 3px 0;}
+#sidebar h3 {margin:10px 0 5px 0;}
+.single-text {width:435px; height:580px;overflow:auto; margin:50px 50px 100px 550px;}
+.singlep {padding:0; margin:0 0 20px 0; width:180px;}
